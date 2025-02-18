@@ -43,8 +43,13 @@ const router = {
 
   deleteUser: (req, res) => {
     lista.deleteUser(req.params.id);
-    res.status(200).json({ message: "Usuário deletado com sucesso", IdDeletado: req.params.id });
-  }
+    res
+      .status(200)
+      .json({
+        message: "Usuário deletado com sucesso",
+        IdDeletado: req.params.id,
+      });
+  },
 };
 
 module.exports = router;
