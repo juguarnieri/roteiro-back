@@ -1,0 +1,26 @@
+{
+  "name": "roteiro-back",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "CLS && nodemon server.js",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "API",
+    "Senai"
+  ],
+  "author": "Júlia",
+  "license": "MTI",
+  "description": "Aqui está adicionado o roteiro de Back-End, para sempre seguir.",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "uuid": "^11.0.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
