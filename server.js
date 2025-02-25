@@ -14,7 +14,7 @@ app.use("/api", userRoutes);
 app.use("/api", postRoutes);
 
 app.get("/", (req, res) => {
-    res.send("Rota funcionando");
+    res.send("Servidor rodando!");
 });
 
 app.listen(PORT, () => {
